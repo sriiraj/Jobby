@@ -1,0 +1,226 @@
+.job-main-container {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  min-height: 90vh;
+  height: 100%;
+}
+.job-container {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  align-items: center;
+  margin-top: 30px;
+}
+.Filter-sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.job-profiles-container {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+}
+@media screen and (min-width: 768px) {
+  .job-container {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .job-profiles-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 50px;
+    min-height: 50%;
+    width: 70%;
+  }
+}
+.search-main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.search-container {
+  border: 1px solid #7e858e;
+  width: 300px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  background-color: #272727;
+}
+@media screen and (min-width: 768px) {
+  .search-main-container {
+    justify-content: flex-start;
+  }
+  .search-container {
+    width: 450px;
+  }
+}
+.search-input-container {
+  padding: 8px 12px;
+  flex-grow: 1;
+  background-color: black;
+  width: 85%;
+  display: flex;
+}
+.search-input {
+  background-color: transparent;
+  border: none;
+  font-family: 'Roboto';
+  font-size: 16px;
+  flex-grow: 1;
+  outline: none;
+  color: #cbd5e1;
+}
+.search-button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+.search-icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
+}
+.search-icon {
+  color: #cbd5e1;
+  background-color: #272727;
+  font-size: 20px;
+  cursor: pointer;
+}
+.job-item-main-container {
+  margin-top: 4%;
+  padding-left: 0px;
+  list-style: none;
+}
+.AllJobsList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.job-failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.job-failure-img {
+  width: 300px;
+}
+.job-failure-heading {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  margin-bottom: 0px;
+}
+.job-failure-description {
+  color: #f8fafc;
+  font-size: 9px;
+  font-family: 'Roboto';
+}
+.job-failure-button {
+  color: white;
+  background-color: #4f46e5;
+  font-size: 12px;
+  font-family: 'Roboto';
+  padding: 10px 30px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 2px;
+  margin-top: 15px;
+}
+@media screen and (min-width: 768px) {
+  .loader-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .job-failure-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .job-failure-img {
+    width: 400px;
+  }
+  .job-failure-heading {
+    color: white;
+    font-size: 36px;
+    font-weight: 500;
+    font-family: 'Roboto';
+    margin-bottom: 0px;
+  }
+  .job-failure-description {
+    color: #f8fafc;
+    font-size: 14px;
+    font-family: 'Roboto';
+  }
+  .job-failure-button {
+    color: white;
+    background-color: #4f46e5;
+    font-size: 14px;
+    font-family: 'Roboto';
+    padding: 10px 30px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+}
+
+.no-job-container {
+  margin-top: 10%;
+  margin-bottom: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.no-job-img {
+  width: 300px;
+}
+.no-job-heading {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  margin-bottom: 0px;
+}
+.no-job-description {
+  color: #f8fafc;
+  font-size: 9px;
+  font-family: 'Roboto';
+}
+@media screen and (min-width: 768px) {
+  .no-job-img {
+    width: 450px;
+  }
+  .no-job-heading {
+    color: white;
+    font-size: 42px;
+    font-weight: 500;
+    font-family: 'Roboto';
+    margin-bottom: 0px;
+  }
+  .no-job-description {
+    color: #f8fafc;
+    font-size: 13px;
+    font-family: 'Roboto';
+  }
+}
