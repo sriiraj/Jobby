@@ -1,6 +1,6 @@
 # Jobby App - Job Seeking Application
 
-- ## React Based Application (Front-End Application)
+React Based Application (Front-End Application)
 
 <details>
 <summary style='font-size:20px;font-weight:bold'>Concepts In Use:</summary>
